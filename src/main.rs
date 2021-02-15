@@ -38,4 +38,5 @@ fn main() {
     convert_f
         .write_all(convert_string.as_bytes())
         .expect("Can't write this string");
+        println!("bye");
 }
